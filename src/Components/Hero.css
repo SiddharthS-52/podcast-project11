@@ -1,0 +1,122 @@
+.hero {
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    background-color: #68c6a4;
+}
+
+.img {
+    /* width: 10rem; */
+    /* height: 10rem; */
+    position: absolute;
+    object-fit: cover;
+}
+
+.hero-text{ 
+    /* margin-top: 10rem; */
+    margin-top: 15%;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    color: #113245;
+    /* color: #; */
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: rgb(72, 210, 235); */
+}
+
+.hero-text h3{
+    /* font-size: 2.3rem; */
+    font-size: 200%;
+    /* color:rgb(234, 133, 18); */
+    color: #03878f;
+    padding: 1rem 2rem;
+    padding-bottom: 4rem;
+}
+
+.hero-text .show {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+
+@media screen and (max-width: 850px) {
+    .hero {
+        /* width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-size: contain;
+        overflow: hidden;
+        background-color: #68c6a4; */
+        /* width: 295px; */
+        height: 300px;
+        /* position: absolute; */
+        position: relative;
+        z-index: -1;
+    }
+    
+    .img {
+        /* width: 10rem; */
+        /* height: 10rem; */
+        position: absolute;
+        object-fit: cover;
+    }
+    
+    .hero-text{ 
+        /* margin-top: 10rem;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%; */
+        margin-top: 1.5rem;
+        /* position: absolute; */
+        top: 50%;
+    }
+    
+    .hero-text h1{
+        /* font-size: 4rem;
+        font-weight: 800;
+        margin-bottom: 2rem;
+        color: #113245;
+        -webkit-background-clip: text; */
+        /* -webkit-text-fill-color: rgb(72, 210, 235); */
+
+        font-size: 300%;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    
+    .hero-text h3{
+        font-size: 150%;
+        /* color:rgb(234, 133, 18); */
+        color: #03878f;
+        /* padding: 1rem 2rem;
+        padding-bottom: 4rem; */
+        padding-top: 0.5rem;
+    }
+    
+    /* .hero-text .show { */
+        /* text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: black; */
+    /* } */
+}

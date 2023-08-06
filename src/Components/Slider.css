@@ -1,0 +1,283 @@
+.s-wrapper{
+    padding-top: 3rem;
+    /* padding-bottom: 2rem; */
+    background-color: #468b97;
+    /* background-color: #03878f; */
+    /* margin-left: 14rem;
+    margin-right: 14rem; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2rem;
+}
+
+.s-container{
+    overflow: hidden;
+    position: relative;
+    /* padding: 0.5rem; */
+    width: 100%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+    /* align-items: center; */
+}
+
+.s-heading{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    /* color: #9681eb; */
+    /* color: #f3aa60; */
+    color: #f2b531;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8rem;
+}
+ 
+.s-card{
+    gap: 0.6rem;
+    padding: 3rem;
+    border-radius: 10px;
+    /* margin: auto; */
+    transition: all 300ms ease-in;
+    /* width: 45rem; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-card :hover{
+    scale: 1.025;
+    cursor: pointer;
+    /* background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(136, 160, 255, 0.46) 217.91%
+    ); */
+    /* box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21); */
+}
+
+.review{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #1f3e72;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.by{
+    font-size: 1.2rem;
+    /* font-weight: 700; */
+    /* color: rgb(140, 139, 139); */
+    /* color: #1d5879; */
+    color: #e7e6e0;
+}
+
+.s-buttons{
+    position: absolute;
+    gap: 1rem;
+    top: 1rem;
+    /* height: 8rem; */
+    height: 120%;
+    
+    right: 1rem;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.s-buttons i{
+    display: flex;
+    z-index: 999;
+    height: 3rem;
+    width: 3rem;
+    /* color: #e7e6e0; */
+    background-color: #e7e6e0;
+    border-radius: 5px;
+    padding: 8px 8px;
+}
+
+.s-buttons button{
+    /* display: flex; */
+    height: 2rem;
+    object-fit: cover;
+    width: 2rem;
+    padding: 0.2rem 0.5rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    /* background-color: white; */
+    cursor: pointer;
+}
+
+.s-buttons :nth-child(1){
+    /* color: #1f3e72; */
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    /* background-color: #eeeeff; */
+}
+
+.s-buttons :nth-child(2){
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    /* background-color: #eeeeff; */
+}
+
+.s-buttons button p{
+    font-size: 1.5rem;
+    border: none;
+}
+
+@media screen and (max-width: 850px) {
+    .s-wrapper{
+        /* padding-top: 3rem; */
+        /* padding-bottom: 2rem; */
+        /* background-color: #468b97; */
+        /* background-color: #03878f; */
+        /* margin-left: 14rem;
+        margin-right: 14rem;
+        margin-bottom: 2rem; */
+        /* width: 22.3rem; */
+        width: 95%;
+        margin-left: 0.7rem;
+        margin-right: 1rem;
+        /* position: relative;    */
+    }
+    
+    .s-container{
+        /* overflow: hidden;
+        position: relative; */
+        /* padding: 0.5rem; */
+        /* width: 100%;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding-left: 5rem;
+        padding-right: 5rem; */
+        /* margin-top: 2rem; */
+        /* margin-bottom: 2rem; */
+        /* width: 22.3rem; */
+        margin-left: 0rem;
+        /* margin-right: 10rem; */
+        width: 100%;
+        align-items: center;
+        /* padding-right: 40rem; */
+        /* margin-right: 1rem; */
+    }
+    
+    .s-heading{
+        margin-bottom: 5rem;
+        font-size: 2.5rem;
+        /* color: #9681eb; */
+        /* color: #f3aa60; */
+        color: #f2b531;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        /* padding-right: 3rem; */
+        /* margin-right: 18rem; */
+    }
+     
+    .s-card{
+        /* gap: 0.6rem; */
+        /* padding: 3rem; */
+        /* padding-top: 5rem; */
+        margin-top: 5rem;
+        border-radius: 10px;
+        margin: auto;
+        transition: all 300ms ease-in;
+        /* width: 45rem; */
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .s-card :hover{
+        scale: 1.025;
+        cursor: pointer;
+        /* background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(136, 160, 255, 0.46) 217.91%
+        ); */
+        /* box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21); */
+    }
+    
+    .review{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #1f3e72;
+        padding-bottom: 2rem;
+    }
+    
+    .by{
+        font-size: 1.2rem;
+        /* font-weight: 700; */
+        /* color: rgb(140, 139, 139); */
+        /* color: #1d5879; */
+        color: #e7e6e0;
+    }
+    
+    .s-buttons{
+        position: absolute;
+        gap: 1rem;
+        top: 1rem;
+        /* height: 35rem; */
+        height: 120%;
+        width: 4rem;
+        right: 0.1rem;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    
+    .s-buttons i{
+        display: flex;
+        z-index: 999;
+        height: 3rem;
+        width: 3rem;
+        /* color: #e7e6e0; */
+        background-color: #e7e6e0;
+        border-radius: 5px;
+        padding: 8px 8px;
+    }
+    
+    .s-buttons button{
+        /* display: flex; */
+        height: 2rem;
+        object-fit: cover;
+        width: 2rem;
+        padding: 0.2rem 0.5rem;
+        color: blue;
+        border: none;
+        border-radius: 5px;
+        /* background-color: white; */
+        cursor: pointer;
+    }
+    
+    .s-buttons :nth-child(1){
+        /* color: #1f3e72; */
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+        /* background-color: #eeeeff; */
+    }
+    
+    .s-buttons :nth-child(2){
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+        /* background-color: #eeeeff; */
+    }
+    
+    .s-buttons button p{
+        font-size: 1.5rem;
+        border: none;
+    }
+    
+}

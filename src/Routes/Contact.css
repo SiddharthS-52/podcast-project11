@@ -1,0 +1,198 @@
+.subscription-form {
+    /* margin: 4rem 6rem; */
+    position: relative;
+    /* margin-top: 5rem; */
+    /* padding-top: 5rem; */
+}
+/* 
+.subscription-form h1{
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+} */
+
+.heading{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #03878f;
+}
+
+.heading h1{
+    font-size: 3.5rem;
+    color: #113245;
+    margin-bottom: 1rem;
+}
+
+.heading p{
+    font-size: 1.2rem;
+    color: #113245;
+}
+
+.form-fill {
+    height: 30rem;
+    /* margin-top: 2rem; */
+    padding-top: 8rem;
+    background-image: url("../Assets/pexels-dlxmediahu-11884525.jpg");
+    margin: 3rem 10rem;
+    /* background-color: #03878f; */
+    /* background-color: #ed5958; */
+    /* background-color: #f2b531; */
+    background-color: #68c6a4;
+    align-content: center;
+}
+
+.form-fill h1{
+    /* color: aliceblue; */
+    color: #e7e6e0;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.form-fill p {
+    font-size: 1.5rem;
+    /* color: rgb(252, 181, 87); */
+    /* color: #113245; */
+    color: #e7e6e0;
+}
+
+.form-fill form{
+    padding-top: 4rem;
+    /* padding-left: 25rem; */
+    padding-left: 20%;
+    /* padding-right: 25rem; */
+    padding-right: 20%;
+    padding-bottom: 2rem;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-fill input {
+    margin-left: 0%;
+    width: 90%;
+    height: 3.5rem;
+    padding: 0.1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.form-fill button {
+    background-color: aquamarine;
+    display: inline;
+    height: 2.5rem;
+    width: 30%;
+    margin-top: 1rem;
+    color: rgb(7, 2, 16);
+}
+
+@media screen and (max-width: 850px) {
+    .subscription-form {
+        /* margin: 4rem 6rem; */
+        /* position: relative; */
+        /* position: absolute; */
+        /* margin-top: 5rem; */
+        /* padding-top: 5rem; */
+        /* display: flex; */
+        display: contents;
+        /* width: auto; */
+        /* width: auto; */
+    }
+    /* 
+    .subscription-form h1{
+        margin-bottom: 0.5rem;
+        font-size: 3rem;
+    } */
+    
+    .heading{
+        /* position: relative; */
+        /* display:contents; */
+        /* display: flexbox; */
+        /* width: 24.5rem; */
+        /* padding-top: 5rem; */
+        /* padding-bottom: 5rem; */
+        background-color: #03878f;
+    }
+    
+    .heading h1{
+        font-size: 2.5rem;
+        color: #113245;
+        margin-bottom: 1rem;
+    }
+    
+    .heading p{
+        font-size: 1.2rem;
+        color: #113245;
+    }
+    
+    .form-fill {
+        /* align-content: center; */
+        /* align-items: center; */
+        /* height: 25rem; */
+        height: 25%;
+        /* width: 21rem; */
+        width: 100%;
+        /* margin-left: 1.8rem; */
+        margin-left: 0%;
+        /* margin-right: 1rem; */
+        /* display: contents; */
+        /* display: flex; */
+        /* margin-top: 2rem; */
+        /* padding-top: 8rem; */
+        background-image: url("../Assets/pexels-dlxmediahu-11884525.jpg");
+        /* margin: 3rem 10rem; */
+        /* background-color: #03878f; */
+        /* background-color: #ed5958; */
+        /* background-color: #f2b531; */
+        /* background-color: #68c6a4; */
+        /* align-content: center; */
+    }
+    
+    .form-fill h1{
+        /* color: aliceblue; */
+        color: #e7e6e0;
+        font-size: 1.5rem;
+        /* padding-bottom: 0.5rem; */
+    }
+    
+    .form-fill p {
+        font-size: 1.5rem;
+        /* color: rgb(252, 181, 87); */
+        /* color: #113245; */
+        color: #03878f;
+        margin-bottom: 1rem;
+    }
+    
+    .form-fill form{
+        /* display: flex; */
+        display: contents;
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+        /* flex-direction: row; */
+        /* width: 10rem; */
+        /* margin-bottom: 2rem; */
+    }
+    
+    .form-fill input {
+        /* display: contents; */
+        height: 3.5rem;
+        width: 10rem;
+        /* padding: 0.1rem; */
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 0.3rem;
+        border: 1px solid #2a2a2a;
+    }
+    
+    .form-fill button {
+        /* display: contents; */
+        background-color: aquamarine;
+        /* display: inline; */
+        height: 2.5rem;
+        /* margin-top: 1rem; */
+        /* margin-bottom: 2rem; */
+        color: rgb(7, 2, 16);
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
